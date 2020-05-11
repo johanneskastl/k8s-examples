@@ -6,7 +6,7 @@ spec:
   rules:
   - http:
       paths:
-        - path: /
+        - path: /whoami
           backend:
             serviceName: whoami-service
             servicePort: 80
